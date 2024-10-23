@@ -8,3 +8,16 @@ They should be able to request a new recipe if they dont like that one.
 I want to make this as simple as possible. 
 Please use express for the backend, 
 sqlite for for storing the recipes and javascript,html and css with tailwind for the front end
+
+-----
+1.Once the code download is complete, please run the following command to install the dependencies:
+npm init -y
+npm install express sqlite3 cors
+
+2.Start the server by running the following command:
+node server.js
+
+3.Open your browser and navigate to http://localhost:3000 to see the app in action.
+
+
+
