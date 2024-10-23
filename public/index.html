@@ -4,14 +4,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mood-based Recipe Recommender</title>
-    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="style.css">
 </head>
-<body class="bg-gray-100 min-h-screen flex items-center justify-center">
-    <div class="bg-white p-8 rounded-lg shadow-md max-w-md w-full">
-        <h1 class="text-2xl font-bold mb-4 text-center">Mood-based Recipe Recommender</h1>
-        <div class="mb-4">
-            <label for="mood" class="block mb-2">How are you feeling?</label>
-            <select id="mood" class="w-full p-2 border rounded">
+<body>
+    <div class="container">
+        <h1>Mood-based Recipe Recommender</h1>
+        <div>
+            <label for="mood">How are you feeling?</label>
+            <select id="mood">
                 <option value="happy">Happy</option>
                 <option value="sad">Sad</option>
                 <option value="excited">Excited</option>
@@ -19,9 +19,9 @@
                 <option value="celebratory">Celebratory</option>
             </select>
         </div>
-        <button id="getRecipe" class="w-full bg-blue-500 text-white py-2 rounded hover:bg-blue-600">Get Recipe</button>
-        <div id="recipeContainer" class="mt-4 hidden">
-            <h2 id="recipeName" class="text-xl font-semibold mb-2"></h2>
+        <button id="getRecipe">Get Recipe</button>
+        <div id="recipeContainer" class="hidden">
+            <h2 id="recipeName"></h2>
             <p><strong>Ingredients:</strong> <span id="ingredients"></span></p>
             <p><strong>Instructions:</strong> <span id="instructions"></span></p>
         </div>

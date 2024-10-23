@@ -1,19 +1,19 @@
-Iteration 1:
+Iteration 2:
 - 
-please generate a mood based receipe reccommendation app. 
+please generate a mood based recipe recommendation app. 
 I want the user to select their mood and then get a recipe based on that mood shown to them. 
 
-They should be able to request a new recipe if they dont like that one.  
+They should be able to request a new recipe if they don't like that one.  
 I want to make this as simple as possible. 
 Please use express for the backend, 
-sqlite for for storing the recipes and javascript,html and css with tailwind for the front end
+sqlite for storing the recipes and javascript, html and css for the front end
 
 -----
-1.Once the code download is complete, please run the following command to install the dependencies:
+1. Once the code download is complete, please run the following command to install the dependencies:
 npm init -y
 npm install express sqlite3 cors
 
-2.Create the project structure: By running the initial command at the top of this file.
+2. Create the project structure:
 - public
 -- index.html
 -- style.css
@@ -21,10 +21,9 @@ npm install express sqlite3 cors
 - server.js
 - database.js
 
-3.Start the server by running the following command:
+3. Start the server by running the following command:
 node server.js
 
-3.Open your browser and navigate to http://localhost:3000 to see the app in action.
+4. Open your browser and navigate to http://localhost:3000 to see the app in action.
 
-
-
+Note: We've replaced Tailwind CSS with a custom style.css file for better control over the styles.
