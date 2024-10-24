@@ -27,3 +27,8 @@ node server.js
 4. Open your browser and navigate to http://localhost:3000 to see the app in action.
 
 Note: We've replaced Tailwind CSS with a custom style.css file for better control over the styles.
+
+------ 
+Login.html wsa created from the image login.jpg with the following prompt:
+From the image try to create an HTML file with css to replicate the login form design in the image.
+
